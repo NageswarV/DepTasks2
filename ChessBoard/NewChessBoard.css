@@ -1,0 +1,20 @@
+.StartsBlack{
+height: 90px;
+width: 720px;
+background: repeating-linear-gradient( to right,black, black 12.5%, white 12.5%,white 25%);
+}
+.StartsWhite{
+    height: 90px;
+    width: 720px;
+    background: repeating-linear-gradient( to right,white, white 12.5%, black 12.5%,black 25%);  
+}
+#ChessBoard{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
